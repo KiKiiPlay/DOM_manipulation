@@ -48,6 +48,12 @@
       .price_of_product {
         color: green;
       }
+
+      #img_visibility {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
   </head>
   <body>
@@ -164,6 +170,9 @@
     </table>
     <div id="text_board">
       <input tabindex="1" type="text" name="username" value="" />
+      <button id="img_visibility" onclick="visibilityImg(images)">
+        Hide img
+      </button>
     </div>
     <footer id="footer">
       KiKi Shop<br />
@@ -209,9 +218,10 @@
       // TODO: Finish till the end last task
 
       function changePriceColor(price) {
-        price = document.getElementsByClassName("price_of_product");
-        for (let i = 0; i <= 4; i++) {
-          price[i].classList.toggle("price_of_product");
+        const trs = document.querySelectorAll(".price_of_product");
+        for (let i = 0; i <= trs.length - 1; i++) {
+          trs[i].classList.toggle("price_of_product");
+          console.log(trs[i]);
         }
       }
 
