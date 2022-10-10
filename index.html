@@ -11,35 +11,216 @@
       td {
         border: 1px solid black;
       }
+
+      #shop_name {
+        text-align: center;
+      }
+
+      #footer {
+        text-align: center;
+        background-color: gray;
+        height: 70px;
+        padding-top: 30px;
+      }
+
+      #footer a {
+        text-decoration: none;
+      }
+
+      #text_board {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #text_board input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .img_visibility {
+        visibility: hidden;
+      }
+
+      .price_of_product {
+        color: green;
+      }
     </style>
   </head>
   <body>
-    <h1>KiKi_Play Shop</h1>
+    <h1 id="shop_name">KiKi_Play Shop</h1>
     <table style="width: 100%">
       <tr>
         <th>Product</th>
         <th>Price</th>
+        <th>Description</th>
+        <th>Image</th>
+        <th>Links</th>
       </tr>
       <tr>
         <th>Laptop</th>
-        <th>1000$</th>
+        <th class="price_of_product">1000$</th>
+        <th>Very nice Laptop</th>
+        <th style="width: 50%">
+          <img
+            style="width: 50%"
+            class="img_visibility"
+            src="./images/Acer-Nitro-5-R7-5800H-16GB-1TB_SSD-RTX3080-QHD-W10.jpg"
+            target="_blank"
+            alt="Laptop"
+          />
+        </th>
+        <th>
+          <a
+            href="https://www.amazon.pl/Nitro-AN515-45-R8YD-laptop-gamingowy-Windows/dp/B09RK6T36T/ref=asc_df_B09RK6T36T/?tag=plshogostdde-21&linkCode=df0&hvadid=504275520227&hvpos=&hvnetw=g&hvrand=17313070791926685901&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067404&hvtargid=pla-1722797855899&psc=1"
+            target="_blank"
+            >Laptop</a
+          >
+        </th>
       </tr>
       <tr>
         <th>KiKi Phone</th>
-        <th>600$</th>
+        <th class="price_of_product">600$</th>
+        <th>Very nice Phone</th>
+        <th style="width: 50%">
+          <img
+            style="width: 50%"
+            class="img_visibility"
+            src="./images/61q9iDvDc3L._AC_SY550_.jpg"
+            alt="Phone"
+          />
+        </th>
+        <th>
+          <a
+            href="https://www.amazon.pl/Smartfon-systemem-wy%C5%9Bwietlacz-Infinity-V-rozszerzalnej/dp/B09SHW3QP6/ref=sr_1_8?__mk_pl_PL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=XD4GTA97TV0F&keywords=Phone&qid=1665406829&sprefix=phone%2Caps%2C92&sr=8-8&th=1"
+            target="_blank"
+            >Phone</a
+          >
+        </th>
       </tr>
       <tr>
         <th>KiKi Watch</th>
-        <th>800$</th>
+        <th class="price_of_product">800$</th>
+        <th>Very nice Watch</th>
+        <th style="width: 50%">
+          <img
+            style="width: 50%"
+            class="img_visibility"
+            src="./images/MPLD3_VW_34FR+watch-45-alum-starlight-nc-8s_VW_34FR_WF_CO.jpg"
+            alt="Watch"
+          />
+        </th>
+        <th>
+          <a
+            href="https://www.amazon.pl/Apple-Watch-SE-kopert%C4%85-aluminium-sportowym-standardowy/dp/B0BDKCLJ82/ref=sr_1_10?__mk_pl_PL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1YBR6H97QPW37&keywords=watch&qid=1665406865&sprefix=watch%2Caps%2C96&sr=8-10"
+            target="_blank"
+            >Watch</a
+          >
+        </th>
       </tr>
       <tr>
         <th>IKiKi</th>
-        <th>2000$</th>
+        <th class="price_of_product">2000$</th>
+        <th>Very nice Computer</th>
+        <th style="width: 50%">
+          <img
+            style="width: 50%"
+            class="img_visibility"
+            src="./images/APPLE-iMac-21.5-frontt.jpg"
+            alt="Computer"
+          />
+        </th>
+        <th>
+          <a
+            href="https://www.amazon.pl/2020-Apple-iMac-21-5-Calowy-GB/dp/B08VK5G1XT/ref=sr_1_1_sspa?__mk_pl_PL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1CETYQER1KT5X&keywords=imac&qid=1665406899&sprefix=ima%2Caps%2C100&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNlhHRUhMNUZMUUVPJmVuY3J5cHRlZElkPUEwMTQyODQxMUtUWk9FNVlGMTZGNSZlbmNyeXB0ZWRBZElkPUEwOTk0NDA3VElaQzUxRFBPSUk4JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            target="_blank"
+            >Computer</a
+          >
+        </th>
       </tr>
       <tr>
         <th>KiKi Car</th>
-        <th>10000$</th>
+        <th class="price_of_product">10000$</th>
+        <th>Very nice Car</th>
+        <th style="width: 50%">
+          <img
+            style="width: 50%"
+            class="img_visibility"
+            src="./images/maxresdefault.jpg"
+            alt="Car"
+          />
+        </th>
+        <th>
+          <a
+            href="https://oferta.duda-cars.pl/szczegoly-oferty/mercedes-benz-e-53-amg-2021/75331/"
+            target="_blank"
+            >Car</a
+          >
+        </th>
       </tr>
     </table>
+    <div id="text_board">
+      <input tabindex="1" type="text" name="username" value="" />
+    </div>
+    <footer id="footer">
+      KiKi Shop<br />
+      <a href="mailto:hege@example.com">kiril.wandzurak@gmail.com</a>
+    </footer>
+    <script>
+      let newShopName;
+      let backgroundColor;
+      let email;
+      let links = [];
+      let images = [];
+      let priceColor = [];
+
+      function changeName(shopName) {
+        shopName = document.getElementById("shop_name");
+        shopName.innerText = "Tech Shop";
+      }
+
+      function changeBackgroundColor(color) {
+        color = document.querySelector("body");
+        color.style.backgroundColor = "lightBlue";
+      }
+
+      function changeEmail(mail) {
+        mail = document.querySelectorAll("a")[5];
+        mail.innerText = "info@gmail.com";
+      }
+
+      function newLinksClass(newLinks) {
+        newLinks = document.querySelectorAll("a");
+        for (let i = 0; i <= 4; i++) {
+          newLinks[i].classList.add("links_class");
+        }
+      }
+
+      function visibilityImg(img) {
+        img = document.querySelectorAll("img");
+        for (let i = 0; i <= 4; i++) {
+          img[i].classList.toggle("img_visibility");
+        }
+      }
+
+      // TODO: Finish till the end last task
+
+      function changePriceColor(price) {
+        price = document.getElementsByClassName("price_of_product");
+        for (let i = 0; i <= 4; i++) {
+          price[i].classList.toggle("price_of_product");
+        }
+      }
+
+      changeName(newShopName);
+      changeBackgroundColor(backgroundColor);
+      changeEmail(email);
+      newLinksClass(links);
+      visibilityImg(images);
+      changePriceColor(priceColor);
+    </script>
   </body>
 </html>
